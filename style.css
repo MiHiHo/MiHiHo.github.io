@@ -40,7 +40,7 @@ body {
 		padding: 25px 35px 0;
 		margin-right: -4px;
 		border-right: 1px solid #E65C00;
-		border-left: 1px solid #FF7519;
+		border-left: 1px solid #FFA347;
 	}
 
 	a.genre.homebutton {
@@ -60,7 +60,7 @@ body {
 	.leftborder {
 		/*display: inline-block;*/
 		border-left: none;
-		border-right: 1px solid #FF7519;
+		border-right: 1px solid #FFA347;
 		width: 0px;
 		padding: 18px 0 15px;
 		margin: 0 0 0 -3px;
@@ -68,7 +68,7 @@ body {
 	}
 
 	#navigation .contents {
-		border-left: 1px solid #3A5E93;
+		border-left: 1px solid #E68A2E;
 		height:50px;
 	}
 
