@@ -11,12 +11,12 @@ body {
 }
 
 ::selection {
-	background: #FF6600;
+	background: #FF9933;
 	color: #FFFFFF;
 }
 
 ::-moz-selection {
-	background: #FF6600;
+	background: #FF9933;
 	color: #FFFFFF;
 }
 
@@ -26,8 +26,8 @@ body {
 }
 
 #navigation {
-	height: 30px;
-	background-color: #FF6600;
+	height: 50px;
+	background-color: #FF9933;
 	line-height: 0;
 }
 
@@ -60,7 +60,7 @@ body {
 	.leftborder {
 		/*display: inline-block;*/
 		border-left: none;
-		border-right: 1px solid #5B92E5;
+		border-right: 1px solid #FF7519;
 		width: 0px;
 		padding: 18px 0 15px;
 		margin: 0 0 0 -3px;
@@ -79,7 +79,7 @@ body {
 }
 
 	h2 {
-		color: #FF6600;
+		color: #FF9933;
 		text-transform: uppercase;
 		margin: 0;
 		font-size: 30px;
@@ -94,7 +94,7 @@ body {
 	}
 
 	h3.orange {
-		color: #FF6600;
+		color: #FF9933;
 	}
 
 	.promotext {
@@ -106,7 +106,7 @@ body {
 	h4, .subtitle {
 		margin: 0 0 -12px;
 		text-transform: uppercase;
-		color: #FF6600;
+		color: #FF9933;
 		font-size: 16px;
 		font-weight: 800;
 	}
@@ -116,8 +116,8 @@ body {
 	}
 
 	hr {
-		border-top: 1px solid #3A5E93;
-		border-bottom: 1px solid #5B92E5;
+		border-top: 1px solid #E68A2E;
+		border-bottom: 1px solid #FFA347;
 		border-left: none;
 		border-right: none;
 		margin: 15px auto;
@@ -130,7 +130,7 @@ body {
 
 	a {
 		font-weight: bold;
-		color: #4F7EC4;
+		color: #FF9933;
 	}
 
 	a:hover {
@@ -139,12 +139,12 @@ body {
 
 	input[type=submit] {
 		color: #FFFFFF;
-		background-color: #FF6600;
+		background-color: #FF9933;
 		padding: 10px 15px;
 		text-decoration: none;
 		font-size: 16px;
-		border: 1px solid #5B92E5;
-		outline: 1px solid #3A5E93;
+		border: 1px solid #FFA347;
+		outline: 1px solid #E68A2E;
 		font-weight: 500;
 		text-transform: uppercase;
 		cursor: pointer;
@@ -154,12 +154,12 @@ body {
 
 	a.btn {
 		color: #FFFFFF;
-		background-color: #FF4500;
+		background-color: #FF9933;
 		padding: 10px 15px;
 		text-decoration: none;
 		font-size: 16px;
-		border: 1px solid #5B92E5;
-		outline: 1px solid #3A5E93;
+		border: 1px solid #FFA347;
+		outline: 1px solid #E68A2E;
 		font-weight: 500;
 		text-transform: uppercase;
 		display: inline-block;
@@ -171,27 +171,6 @@ body {
 		font-weight: 500;
 	}
 
-	a.btn.gray,
-	input[type=submit].gray {
-		background-color: #E6E6E6;
-		color: #444444;
-		border: 1px solid #F3F2F4;
-		outline: 1px solid #777777;
-	}
-
-	a.btn.green,
-	input[type=submit].green {
-		background-color: #00BF12;
-		border: 1px solid #00E419;
-		outline: 1px solid #00A10E;
-	}
-
-	a.btn.red,
-	input[type=submit].red {
-		background-color: #c63526;
-		border: 1px solid #ee4433;
-		outline: 1px solid #a72d21;
-	}
 
 	/*Homepage*/
 	#infobalk {
@@ -214,21 +193,6 @@ body {
 			margin-top: 15px;
 		}
 
-		.balkdeel img {
-			height: 40px;
-			float:left;
-			margin: 5px 0 0 10px;
-			vertical-align: middle;
-		}
-
-		.balkdeel:first-child img {
-			margin: 5px 0 0 0 !important;
-		}
-
-		.balkdeel:last-child {
-			border-right: none;
-		}
-
 		.button {
 			width: 50%;
 			float: left;
@@ -243,20 +207,6 @@ body {
 			-webkit-transition: all 300ms ease;
 		}
 
-			.button.info {
-				background-color: #E6E6E6;
-			}
-
-			.button.buy {
-				color: #FFFFFF;
-				background-color: #4F7EC4;
-				cursor: pointer;
-			}
-
-			.button.buy.green {
-				background-color: #00BF12;
-				cursor: default;
-			}
 
 #footer {
 	height: 160px;
