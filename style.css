@@ -1,6 +1,6 @@
 body {
 	margin: 0;
-	font-family: Helvetica, Arial;
+	font-family: Helvetica, Berlin sans FB;
 	font-size: 14px;
 	color: #444444;
 
@@ -9,6 +9,27 @@ body {
 	width: 800px;
 	margin: 30px auto;
 }
+
+.contents {
+	width: 800px;
+	margin: 0 auto;
+}
+
+::selection {
+	background: #4F7EC4;
+	color: #FFFFFF;
+}
+
+::-moz-selection {
+	background: #4F7EC4;
+	color: #FFFFFF;
+}
+
+#header {
+	height: 100px;
+	background-color: #FFFFFF;
+}
+
 
 	h2 {
 		color: #4F7EC4;
