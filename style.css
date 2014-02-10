@@ -11,12 +11,12 @@ body {
 }
 
 ::selection {
-	background: ##FF6600;
+	background: #FF6600;
 	color: #FFFFFF;
 }
 
 ::-moz-selection {
-	background: ##FF6600;
+	background: #FF6600;
 	color: #FFFFFF;
 }
 
@@ -27,7 +27,7 @@ body {
 
 #navigation {
 	height: 50px;
-	background-color: ##FF6600;
+	background-color: #FF6600;
 	line-height: 0;
 }
 
