@@ -11,12 +11,12 @@ body {
 }
 
 ::selection {
-	background: #4F7EC4;
+	background: ##FF6600;
 	color: #FFFFFF;
 }
 
 ::-moz-selection {
-	background: #4F7EC4;
+	background: ##FF6600;
 	color: #FFFFFF;
 }
 
@@ -27,7 +27,7 @@ body {
 
 #navigation {
 	height: 50px;
-	background-color: #4F7EC4;
+	background-color: ##FF6600;
 	line-height: 0;
 }
 
@@ -39,8 +39,8 @@ body {
 		height: 25px;
 		padding: 25px 35px 0;
 		margin-right: -4px;
-		border-right: 1px solid #3A5E93;
-		border-left: 1px solid #5B92E5;
+		border-right: 1px solid #E65C00;
+		border-left: 1px solid #FF7519;
 	}
 
 	a.genre.homebutton {
@@ -79,7 +79,7 @@ body {
 }
 
 	h2 {
-		color: #4F7EC4;
+		color: #FF6600;
 		text-transform: uppercase;
 		margin: 0;
 		font-size: 30px;
@@ -93,8 +93,8 @@ body {
 		font-weight: 300;
 	}
 
-	h3.blue {
-		color: #4F7EC4;
+	h3.orange {
+		color: #FF6600;
 	}
 
 	.promotext {
@@ -106,7 +106,7 @@ body {
 	h4, .subtitle {
 		margin: 0 0 -12px;
 		text-transform: uppercase;
-		color: #4F7EC4;
+		color: #FF6600;
 		font-size: 16px;
 		font-weight: 800;
 	}
@@ -139,7 +139,7 @@ body {
 
 	input[type=submit] {
 		color: #FFFFFF;
-		background-color: #4F7EC4;
+		background-color: #FF6600;
 		padding: 10px 15px;
 		text-decoration: none;
 		font-size: 16px;
