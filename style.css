@@ -25,53 +25,6 @@ body {
 	background-color: #FFFFFF;
 }
 
-#navigation {
-	height: 50px;
-	background-color: #FF9933;
-	line-height: 0;
-}
-
-	a.genre {
-		color: white;
-		font-size: 20px;
-		text-decoration: none;
-		display: inline-block;
-		height: 25px;
-		padding: 25px 35px 0;
-		margin-right: -4px;
-		border-right: 1px solid #E65C00;
-		border-left: 1px solid #FFA347;
-	}
-
-	a.genre.homebutton {
-		padding: 25px 0 0;
-		margin-right: 0px;
-		float: left;
-		width: 51px;
-	}
-
-	a.genre.homebutton img {
-		height: 25px;
-		top: -13px;
-		left: 13px;
-		position: relative;
-	}
-
-	.leftborder {
-		/*display: inline-block;*/
-		border-left: none;
-		border-right: 1px solid #E68A2E;
-		width: 0px;
-		padding: 18px 0 15px;
-		margin: 0 0 0 -3px;
-		/*left: -2px;*/
-	}
-
-	#navigation .contents {
-		border-left: 1px solid #E68A2E;
-		height:50px;
-	}
-
 #container {
 	min-height: 250px;
 	width: 900px;
