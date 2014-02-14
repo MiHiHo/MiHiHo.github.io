@@ -41,7 +41,7 @@ body {
 	
 	h2 {
 		color: #FF9933;
-		text-transform: uppercase;
+		text-transform: lowercase;
 		margin: 0;
 		font-size: 30px;
 		/*font-weight: 500;*/
@@ -50,7 +50,7 @@ body {
 	h3, .promotext {
 		margin: 0;
 		font-size: 20px;
-		text-transform: uppercase;
+		text-transform: lowercase;
 		font-weight: 300;
 	}
 
