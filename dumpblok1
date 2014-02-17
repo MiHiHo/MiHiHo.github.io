@@ -14,10 +14,10 @@
 		<a href="http://MiHiHo.github.io/dump" class="btn">De dump</a> 
 		<a href="http://MiHiHo.github.io/overig" class="btn">Overig</a><br /><br />
 		<div id= "container">
-			<h2>Deliverables</h2> <br /><br />
-			<a href="http://MiHiHo.github.io/dumpblok1">Blok 1</a><br />
-			MIT opdrachten
-
+			<h3> Ik heb voor het eerste blok de volgende 3 MIT opdrachten gemaakt: </h3><br /><br />
+			<a href="./dumpusability">Usability</a><br /><br />
+			<a href="./dumpusertesting">User Testing</a><br /><br />
+			<a href="./dumpprototyping">Prototyping</a><br /><br />
 		</div>
 	</div>
 	
