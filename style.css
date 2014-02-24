@@ -22,9 +22,6 @@ body {background-color:#FF9933;}
 	color: #FFFFFF;
 }
 
-#background {
-	background-color: #FF9933;
-}
 
 #header {
 	height: 250px;
@@ -44,6 +41,7 @@ body {background-color:#FF9933;}
 	width: 226px;
 	float: left;
 	padding: 0 20px;
+	background-color: #ff9933 
 	}
 
 	
