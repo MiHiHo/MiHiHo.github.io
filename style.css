@@ -30,13 +30,14 @@ body {
 	min-height: 250px;
 	width: 800px;
 	margin: 30px auto;
-	background-color: #FF9933
+	background-color: #FFFFFF
 }
 
 	#container .containerblock {
 	width: 226px;
 	float: left;
 	padding: 0 20px;
+	background-color: #FF9933
 	}
 
 	
