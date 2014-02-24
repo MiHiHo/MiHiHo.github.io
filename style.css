@@ -29,7 +29,7 @@ body {
 #container {
 	min-height: 250px;
 	width: 800px;
-	margin: 0px center;
+	margin: 0px auto;
 	background-color: #FFFFFF
 }
 
