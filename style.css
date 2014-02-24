@@ -20,6 +20,10 @@ body {
 	color: #FFFFFF;
 }
 
+#background {
+	background-color: #FF9933;
+}
+
 #header {
 	height: 150px;
 	background-color: #FFFFFF;
