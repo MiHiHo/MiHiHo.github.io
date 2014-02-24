@@ -29,8 +29,7 @@ body {
 #container {
 	min-height: 250px;
 	width: 800px;
-	margin: 0px auto;
-	float: center;
+	margin: 0px center;
 	background-color: #FFFFFF
 }
 
@@ -41,7 +40,6 @@ body {
 	background-color: #FF9933
 	}
 
-	
 	h2 {
 		color: #FF9933;
 		margin: 0;
