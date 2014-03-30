@@ -1,7 +1,7 @@
 body {
 	margin-left:200px;
 	font-family: Helvetica, Arial;
-	background:fixed url("plaatje_boom.jpg") no-repeat center left;
+	background:fixed url("plaatje_boom.png") no-repeat center left;
 	font-size: 14px;
 	color: #444444;
 }
