@@ -1,36 +1,95 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="./style.css" />
-</head>
-<body>
-	<div id="header">
-		<div class="contents">
-			<a href="./"><img src="./header.jpg" class="logoimg" alt="Portfolio Minke" /></a>	
-	</div>
+<style>
+body
+{
+margin-left:450px;
+margin-top:75px;
+margin-bottom:75px;
+background: fixed #FFFFFF url("paardenbloem.jpg") no-repeat top left;
+font-family: Helvetica, Arial;
+font-size: 14px;
+}
 
-	<div id= "container">
-		<div class="contents">
-			<a href="http://MiHiHo.github.io/deliverables" class="btn">Deliverables </a> 
-		<a href="http://MiHiHo.github.io/dump" class="btn">De dump</a> 
-		<a href="http://MiHiHo.github.io/overig" class="btn">Over mij</a><br /><br />
-		</div>
-		<div id= "container">
-			<h3> Opdrachten voor het tweede blok:</h3><br /><br />
-			<a href="strip.pdf" target="_blank">Opdracht strip</a><br><br>
-			<a href="her_strip.pdf" target="_blank">Herkansing strip</a><br><br>
-			<a href="rodedraad.pdf" target="_blank">Rode draad opdracht</a><br><br><br>
-			Onbegeleid groepswerk (groep 27):<br><br>
-			<a href="groep27interactie.pdf" target="_blank">Interactie ontwerp</a> door David van Rooij<br><br>
-			<a href="groep27grafisch.pdf" target="_blank">Grafisch ontwerp</a> door Lioni Meyer<br><br>
-			<a href="groep27developer.pdf" target="_blank">Developer ontwerp</a> door Ashwin Kahmann<br><br>
-						
-		</div>
-	</div>
-	
-	<div id="footer">
-		<div class="contents">
-		</div>
-	</div>
+.container
+{
+text-align:center;
+}
+
+.center_div
+{
+border:4px solid black;
+margin-left:auto;
+margin-right:auto;
+width:80%;
+height: 80%;
+background-color:#FFFFFF;
+text-align:left;
+padding:40px;
+}
+
+
+ul
+{
+list-style-type:none;
+margin-left:45px;
+padding:10;
+overflow:hidden;
+}
+
+li
+{
+float:left;
+}
+#navbar a:link,#navbar a:visited
+{
+display:block;
+width:120px;
+font-weight:bold;
+color:#FFFFFF;
+background-color:#47B5B5;
+text-align:center;
+padding:10px;
+text-decoration:none;
+text-transform:uppercase;
+}
+#navbar a:hover,#navbar a:active
+{
+background-color:#399191;
+}
+a.one:link {color:#47B5B5;text-decoration:none;}
+a.one:visited {color:#47B5B5;text-decoration:none;}
+a.one:hover {text-decoration:underline;}
+
+p.space {line-height:150%;}
+p.tab {text-indent:50px;}
+
+</style>
+</head>
+
+<body>
+<div class="container">
+<div class="center_div">
+
+<div id="navbar">
+<ul>
+<li><a href="http://MiHiHo.github.io">Home</a></li>
+<li><a href="http://MiHiHo.github.io/deliverables">Deliverables</a></li>
+<li><a href="http://MiHiHo.github.io/dump">Dump</a></li>
+<li><a href="http://MiHiHo.github.io/overig">Over mij</a></li>
+</ul>
+</div>
+
+<br><h1>Blok 2</h1>
+<p>Voor het tweede blok heb ik de volgende opdrachten gemaakt:</p><br>
+<b><a class="one" href="strip.pdf" target="_blank">Opdracht strip</a></b><br><br>
+<b><a class="one" href="her_strip.pdf" target="_blank">Herkansing strip</a></b><br><br>
+<b><a class="one" href="rodedraad.pdf" target="_blank">Rode draad opdracht</a></b><br><br></p>
+<b><a class="one" href="groep27interactie.pdf" target="_blank">Interactie ontwerp</a></b> door David van Rooij<br><br>
+<b><a class="one" href="groep27grafisch.pdf" target="_blank">Grafisch ontwerp</a></b> door Lioni Meyer<br><br>
+<b><a class="one" href="groep27developer.pdf" target="_blank">Developer ontwerp</a></b> door Ashwin Kahmann<br><br>
+</div>
+</div>
 </body>
 </html>
