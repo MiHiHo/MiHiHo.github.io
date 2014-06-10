@@ -1,37 +1,26 @@
 letter	frequency
 Oostenrijk2001	0.69 	
 Oostenrijk2012	0.735 
-
 Belgie2001	0.854
 Belgie2012 	0.895 
-
 Bulgarije2001	0.461
 Bulgarije2012 	0.806 
-
 Cyprus2001	0.316 	
 Cyprus2012	0.347 
-
 Tsjechië2001	0.852 	
 Tsjechië2012	0.899 
-
 Duitsland2001	0.826 	
 Duitsland2012	0.861 
-
 Denemarken2001	0.805 	
 Denemarken2012	0.864 
-
 Estland2001	0.756 	
 Estland2002	0.929 
-
 Griekenland2001	0.649 	
 Griekenland2012	0.679
-
 Spanje2001	0.688 	
 Spanje2012	0.784 
-
 Finland2001	0.885
 Finland2012 	0.937 
-
 Frankrijk2001	0.804
 Frankrijk2012 	0.769 
 Hongarije2001	0.734
@@ -56,7 +45,6 @@ Nederland2001	0.773
 Nederland2012 	0.903 
 Noorwegen2001	0.861
 Noorwegen2012 	0.884 
-
 Polen2001	0.820
 Polen2012 	0.933 
 Portugal2001	0.658
