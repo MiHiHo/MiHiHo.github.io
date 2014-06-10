@@ -59,7 +59,7 @@ body {
 <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
 <script>
 
-var margin = {top: 40, right: 20, bottom: 60, left: 40},
+var margin = {top: 40, right: 20, bottom: 90, left: 40},
     width = 1360 - margin.left - margin.right,
     height = 500 - margin.top - margin.bottom;
 
@@ -105,7 +105,7 @@ d3.tsv("data.tsv", type, function(error, data) {
       .call(xAxis)
       .selectAll("text")
       		.attr("transform", function (d) { return"rotate(-60)"})
-      		.attr("y", 6)
+      		.attr("y", 10)
       		.attr("x", -30);
 
   svg.append("g")
