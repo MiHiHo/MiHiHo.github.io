@@ -105,8 +105,8 @@ d3.tsv("data.tsv", type, function(error, data) {
       .call(xAxis)
       .selectAll("text")
       		.attr("transform", function (d) { return"rotate(-30)"})
-      		.attr("y", 3)
-      		.attr("x", -20);
+      		.attr("y", 4)
+      		.attr("x", -30);
 
   svg.append("g")
       .attr("class", "y axis")
