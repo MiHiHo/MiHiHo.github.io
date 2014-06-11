@@ -1,48 +1,65 @@
 <!DOCTYPE html>
 <html>
   <head>
-  	<script type="text/javascript" src="d3.min.js"></script>
+    <script type="text/javascript" src="d3.min.js"></script>
   </head>
   <body>
-  	<script>
+    <script>
 
-  	var data = [{"label":"Chrome", "value":42.92},
-    {"label":"Internet Explorer", "value":24.87},
-    {"label":"Firefox", "value":18.99},
-    {"label":"Safari", "value":8.99},
-    {"label":"Opera", "value":1.22},
-    {"label":"Other", "value":3.01}];
+    var json = [
+    {"name":"Chrome", "value":42.92}, 
+    {"name":"Internet Explorer", "value":24.87}, 
+    {"name":"Firefox", "value":18.99},
+    {"name":"Safari", "value":8.99},
+    {"name":"Opera", "value":1.22},
+    {"name":"Other", "value":3.01}
+    ];
+
+    var data = [];
+
+    var extractValue = function(x) {
+        for (var i=0; i<json.length;i++){
+            data.push(x[i].value);
+        }
+    };
+    extractValue(json)
 
 
+    var r = 300;
 
-  	var r = 300;
+    var color = d3.scale.ordinal()
+        .range(["darkblue", "grey","darkgrey","lightgrey","blue","lightblue"]);
 
-  	var color = d3.scale.ordinal()
-  		.range(["darkblue", "grey","darkgrey","lightgrey","blue","lightblue"]);
+    var canvas = d3.select("body").append("svg")
+        .attr("width", 1500)
+        .attr("height", 1500);
 
-  	var arc = d3.svg.arc()
-  		.innerRadius(0)
-  		.outerRadius(r)
+    var group = canvas.append("g")
+        .attr("transform", "translate(300, 300)");
 
-  	var pie = d3.layout.pie()
-  		.value(function(d){return d;});
+    var arc = d3.svg.arc()
+        .innerRadius(0)
+        .outerRadius(r)
 
-  	var arcs = group.selectAll(".arc")
-  		.data(pie(data))
-  		.enter()
-  		.append("g")
-  		.attr("class", "arc");
+    var pie = d3.layout.pie()
+        .value(function(d){return d;});
 
-  	arcs.append("path")
-  		.attr("d", arc)
-  		.attr("fill", function(d) {return color(d.data);});
+    var arcs = group.selectAll(".arc")
+        .data(pie(data))
+        .enter()
+        .append("g")
+        .attr("class", "arc");
 
-  	arcs.append("text")
-  		.attr("transform", function (d) {return "translate(" + arc.centroid(d) + ")";})
-  		.attr("text-anchor", "middle")
-  		.attr("font-size", "1.5em")
-  		.text(function (d) { return d.data;});
-  	</script>
+    arcs.append("path")
+        .attr("d", arc)
+        .attr("fill", function(d) {return color(d.data);});
+
+    arcs.append("text")
+        .attr("transform", function (d) {return "translate(" + arc.centroid(d) + ")";})
+        .attr("text-anchor", "middle")
+        .attr("font-size", "1.5em")
+        .text(function (d) { return d.data;});
+    </script>
 
   </body>
 </html>
