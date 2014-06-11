@@ -5,20 +5,23 @@
   </head>
   <body>
   	<script>
-  	var data = [42.92, 24.87, 18.99, 8.99, 1.22, 3.01];
-  	var r = 300;
 
-  	var color = d3.scale.ordinal()
-  		.range(["darkblue", "grey","darkgrey","lightgrey","blue","lightblue"]);
+  	d3.csv("data.csv", function (data) {
 
   	var canvas = d3.select("body").append("svg")
   		.attr("width",1500)
   		.attr("heigth",1500);
-  		
-
 
   	var group = canvas.append("g")
   		.attr("transform", "translate(300,300)")
+
+  		canvas.selectAll("")
+  	})
+
+  	var r = 300;
+
+  	var color = d3.scale.ordinal()
+  		.range(["darkblue", "grey","darkgrey","lightgrey","blue","lightblue"]);
 
   	var arc = d3.svg.arc()
   		.innerRadius(0)
