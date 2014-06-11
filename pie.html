@@ -22,10 +22,9 @@ polyline{
 
 </style>
 <body>
-<button class="randomize">randomize</button>
-
 <script src="http://d3js.org/d3.v3.min.js"></script>
 <script>
+
 
 var svg = d3.select("body")
 	.append("svg")
@@ -70,20 +69,6 @@ function randomData (){
 		return { label: label, value: Math.random() }
 	});
 }
-
-change(randomData());
-
-d3.select(".randomize")
-	.on("click", function(){
-		change(randomData());
-	});
-
-
-function change(data) {
-
-	/* ------- PIE SLICES -------*/
-	var slice = svg.select(".slices").selectAll("path.slice")
-		.data(pie(data), key);
 
 	slice.enter()
 		.insert("path")
